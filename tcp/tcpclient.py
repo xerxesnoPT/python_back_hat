@@ -27,7 +27,7 @@ while 1:
             if data.decode('utf-8') == 'quit':
                 break
         else:
-            data = input('plz input >>')
+            data = input('>>>')
             if data == 'quit':
                 tcpCliSock.send(data.encode('utf-8'))
                 break
